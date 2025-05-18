@@ -9,7 +9,8 @@ void solve(){
     cin>>n;
     vector<int>v(n);
 
-
+// the basic idea of bubble sort is to repeatedly swap adjacent elements if they are in the wrong order.
+// The algorithm continues to pass through the list until no swaps are needed, indicating that the list is sorted.
     cout<<"Enter the Elements:";
 
     for(int i=0;i<n;i++){
